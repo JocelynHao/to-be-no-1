@@ -30,7 +30,7 @@ public class SelectionSort {
                 }
             }
             // 交换i位置元素与当前最小值的位置
-            Util.swap(arr, i, minIndex);
+            Util.Swap(arr, i, minIndex);
         }
     }
 

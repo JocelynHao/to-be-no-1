@@ -25,7 +25,7 @@ public class InsertionSort {
             for (int j=i; j>0; j--){
                 if (-1 == arr[j].compareTo(arr[j-1])){
                     // 交换方法需要进行三步操作
-                    Util.swap(arr, j, j-1);
+                    Util.Swap(arr, j, j-1);
                 } else {
                     break;
                 }

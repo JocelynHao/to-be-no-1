@@ -14,7 +14,7 @@ public class Util {
      * @param y 另一个元素的下标
      * @param <T> 数组类型
      */
-    public static <T> void swap (T[] arr, int x, int y){
+    public static <T> void Swap(T[] arr, int x, int y){
         T temp = arr[x];
         arr[x] = arr[y];
         arr[y] = temp;
